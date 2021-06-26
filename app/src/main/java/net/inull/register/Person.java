@@ -1,13 +1,13 @@
 package net.inull.register;
 
-/**
- * Created by Aiden on 2016/2/18.
- */
 public class Person
 {
-  private String strName = null; // 编程语言的名字
-  private int intImageId; // 编程语言的图像id
-  private String strJson;
+  // 名字
+  private String strName = null;
+  // 图片 id
+  private Integer intImageId = null;
+  // 其它数据
+  private String strJson = null;
 
   public Person(String strName, int intImageId, String strJson)
   {
@@ -36,14 +36,15 @@ public class Person
     this.intImageId = intImageId;
   }
 
+  public String getJson()
+  {
+    return strJson;
+  }
+
   public void setJson(String strJson)
   {
     this.strJson = strJson;
   }
 
-  public String getJson()
-  {
-    return strJson;
-  }
 }
 
