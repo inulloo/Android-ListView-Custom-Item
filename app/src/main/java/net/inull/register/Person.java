@@ -5,7 +5,7 @@ package net.inull.register;
  */
 public class Person
 {
-  private String strName; // 编程语言的名字
+  private String strName = null; // 编程语言的名字
   private int intImageId; // 编程语言的图像id
   private String strJson;
 
