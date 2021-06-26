@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity
       {
         // 获取show.xml布局文件的对象
         // 并分别拿到imageView和textView控件
-        LinearLayout linearLayout = (LinearLayout) getLayoutInflater().inflate(R.layout.show, null);
+        LinearLayout linearLayout = (LinearLayout) getLayoutInflater().inflate(R.layout.dialog, null);
         ImageView imageView = (ImageView) linearLayout.findViewById(R.id.showImage);
         TextView textView = (TextView) linearLayout.findViewById(R.id.showText);
 
